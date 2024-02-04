@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <audio id="myAudio" controls autoplay>
+        <source src="Dhoom3.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+      </audio><br>
+      
+      <button onclick="enableAutoplay()" type="button">Enable autoplay</button>
+
+<script>
+var x = document.getElementById("myAudio");
+
+function enableAutoplay() { 
+  x.autoplay = true;
+  x.load();
+}
+</script>
+
+</body>
+</html>
